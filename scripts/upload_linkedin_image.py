@@ -14,7 +14,7 @@ image_path = f"output/thumbnails/{today}.png"
 register_url = "https://api.linkedin.com/v2/assets?action=registerUpload"
 
 headers = {
-    "Authorization": f"Bearer {ACCESS_TOKEN}",
+    "Authorization": f"Bearer {ACCESS_TOKEN.strip()}",
     "Content-Type": "application/json"
 }
 
@@ -55,7 +55,7 @@ with open(image_path, "rb") as image_file:
         upload_url,
         data=image_file,
         headers={
-            "Authorization": f"Bearer {ACCESS_TOKEN}"
+            "Authorization": f"Bearer {ACCESS_TOKEN.strip()}"
         }
     )
 
