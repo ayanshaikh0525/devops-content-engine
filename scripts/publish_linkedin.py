@@ -9,10 +9,17 @@ PERSON_URN = os.getenv("LINKEDIN_PERSON_URN")
 # Load latest generated post
 today = datetime.now().strftime("%Y-%m-%d")
 
-post_file = f"output/posts/{today}.txt"
+post_file = f"output/posts/{today}.json"
 
+# Load generated content
 with open(post_file, "r") as f:
-    post_content = f.read()
+    post_data = json.load(f)
+
+content = post_data["content"]
+
+hashtags = " ".join(post_data["hashtags"])
+
+final_post = f"{content}\n\n{hashtags}"
 
 url = "https://api.linkedin.com/v2/ugcPosts"
 print(ACCESS_TOKEN)
@@ -30,7 +37,7 @@ payload = {
     "specificContent": {
         "com.linkedin.ugc.ShareContent": {
             "shareCommentary": {
-                "text": post_content
+                "text": final_post
             },
             "shareMediaCategory": "NONE"
         }
