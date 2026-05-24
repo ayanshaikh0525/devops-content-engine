@@ -29,3 +29,5 @@ jobs:
         with:
           name: linkedin-post
           path: output/posts/latest_post.txt
+      - name: Update Topic Status
+        run: python scripts/update_status.py 
