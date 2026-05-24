@@ -57,12 +57,12 @@ CTA:
 {cta}
 
 OUTPUT FORMAT:
-{
+{{
   "hook": "...",
   "content": "...",
   "hashtags": ["...", "..."],
   "thumbnail_prompt": "..."
-}
+}}
 
 IMPORTANT:
 Return ONLY valid JSON.
