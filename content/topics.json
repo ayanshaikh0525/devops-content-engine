@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "status": "pending",
+    "status": "posted",
     "category": "kubernetes",
     "title": "I Finally Understood Kubernetes Pods After This Mistake",
     "angle": "Debugging restarting pods confusion",
