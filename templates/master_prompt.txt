@@ -36,13 +36,35 @@ Generate these fields:
 3. hashtags
 4. thumbnail_prompt
 
-THUMBNAIL PROMPT STYLE:
-- cinematic DevOps workstation
-- dark terminal setup
-- Kubernetes dashboards
-- realistic engineering environment
+THUMBNAIL PROMPT RULES:
+
+Generate a thumbnail prompt that VISUALLY represents the actual engineering problem from the post.
+
+The thumbnail must:
+- reflect the exact debugging scenario
+- include relevant technologies mentioned
+- show realistic terminal errors if relevant
+- visually communicate tension/frustration/problem solving
+- feel like a real engineering environment
+- avoid generic hacker/cyberpunk aesthetics
+- avoid fantasy visuals
+- avoid random RGB gaming setups
+
+STYLE:
 - ultra realistic
-- dramatic lighting
+- cinematic lighting
+- realistic monitors
+- authentic DevOps workstation
+- realistic terminal screens
+- modern cloud engineering environment
+- highly detailed
+- professional LinkedIn creator aesthetic
+
+Examples:
+- If post is about CrashLoopBackOff → show Kubernetes pod restart failures
+- If post is about Docker image size → show bloated Docker layers/storage warnings
+- If post is about AWS billing → show cloud billing dashboard spikes
+- If post is about CI/CD failure → show failed GitHub Actions pipeline
 
 TOPIC:
 {title}
