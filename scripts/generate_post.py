@@ -1,18 +1,21 @@
 import os
 import json
-from openai import OpenAI
-# topics
+import google.generativeai as genai
+
 TOPICS_FILE = "content/topics.json"
 
-client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY")
+# Configure Gemini
+genai.configure(
+    api_key=os.getenv("GEMINI_API_KEY")
 )
+
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 # Load topics
 with open(TOPICS_FILE, "r") as f:
     topics = json.load(f)
 
-# Find pending topic
+# Find first pending topic
 topic = next(
     (t for t in topics if t["status"] == "pending"),
     None
@@ -32,23 +35,15 @@ prompt = template.format(
     cta=topic["cta"]
 )
 
-# Generate post
-response = client.chat.completions.create(
-    model="gpt-5.5",
-    messages=[
-        {
-            "role": "user",
-            "content": prompt
-        }
-    ]
-)
+# Generate content
+response = model.generate_content(prompt)
 
-post = response.choices[0].message.content
+post = response.text
 
-# Create output directory
+# Create output folder
 os.makedirs("output/posts", exist_ok=True)
 
-# Save post
+# Save generated post
 with open("output/posts/latest_post.txt", "w") as f:
     f.write(post)
 
