@@ -1,4 +1,3 @@
-# topics
 [
   {
     "id": 1,
@@ -15,22 +14,5 @@
     ],
     "cta": "Ask audience about hardest Kubernetes issue",
     "visual_style": "dark terminal"
-  },
-
-  {
-    "id": 2,
-    "status": "pending",
-    "category": "docker",
-    "title": "My Docker Image Accidentally Became 4GB",
-    "angle": "Bad Docker layering practices",
-    "hook_style": "failure",
-    "difficulty": "beginner",
-    "key_points": [
-      "multi-stage builds",
-      ".dockerignore",
-      "image layers"
-    ],
-    "cta": "Ask audience biggest Docker mistake",
-    "visual_style": "cinematic workstation"
   }
 ]
