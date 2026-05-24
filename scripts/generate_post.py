@@ -1,7 +1,7 @@
 import os
 import json
 from openai import OpenAI
-
+# topics
 TOPICS_FILE = "content/topics.json"
 
 client = OpenAI(
