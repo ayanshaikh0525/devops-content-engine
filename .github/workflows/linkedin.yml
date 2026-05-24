@@ -30,6 +30,11 @@ jobs:
           name: linkedin-post
           path: output/posts/latest_post.txt
 
+      - name: Generate Thumbnail
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: python scripts/generate_thumbnail.py
+
       - name: Publish to LinkedIn
         env:
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
