@@ -15,9 +15,9 @@ with open(post_file, "r") as f:
     post_content = f.read()
 
 url = "https://api.linkedin.com/v2/ugcPosts"
-
+print(ACCESS_TOKEN)
 headers = {
-    "Authorization": f"Bearer {ACCESS_TOKEN}",
+    "Authorization": f"Bearer {ACCESS_TOKEN.strip()}",
     "Content-Type": "application/json",
     "X-Restli-Protocol-Version": "2.0.0",
     "LinkedIn-Version": "202401"
