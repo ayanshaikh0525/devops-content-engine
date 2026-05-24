@@ -8,7 +8,7 @@ from io import BytesIO
 import base64
 
 # Configure Gemini client
-client = genai.Configure(
+client = genai.configure(
     api_key=os.getenv("GEMINI_API_KEY")
 )
 
