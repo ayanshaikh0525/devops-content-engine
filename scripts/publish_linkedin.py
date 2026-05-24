@@ -18,8 +18,10 @@ url = "https://api.linkedin.com/v2/ugcPosts"
 
 headers = {
     "Authorization": f"Bearer {ACCESS_TOKEN}",
+    "Content-Type": "application/json",
     "X-Restli-Protocol-Version": "2.0.0",
-    "Content-Type": "application/json"
+    "LinkedIn-Version": "202401"
+
 }
 
 payload = {
