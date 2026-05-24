@@ -20,6 +20,13 @@ with open(post_file, "r") as f:
 
 content = post_data["content"]
 
+# Load uploaded asset
+with open(asset_file, "r") as f:
+    asset_data = json.load(f)
+
+asset = asset_data["asset"]
+
+
 hashtags = " ".join(post_data["hashtags"])
 
 final_post = f"{content}\n\n{hashtags}"
