@@ -29,6 +29,12 @@ jobs:
         with:
           name: linkedin-post
           path: output/posts/latest_post.txt
+
+      - name: Publish to LinkedIn
+        env:
+          LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
+          LINKEDIN_PERSON_URN: ${{ secrets.LINKEDIN_PERSON_URN }}
+        run: python scripts/publish_linkedin.py
           
       - name: Update Topic Status
         run: python scripts/update_status.py 
