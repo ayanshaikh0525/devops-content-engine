@@ -15,7 +15,9 @@ register_url = "https://api.linkedin.com/v2/assets?action=registerUpload"
 
 headers = {
     "Authorization": f"Bearer {ACCESS_TOKEN.strip()}",
-    "Content-Type": "application/json"
+    "Content-Type": "application/json",
+    "X-Restli-Protocol-Version": "2.0.0",
+    "LinkedIn-Version": "202401"
 }
 
 register_payload = {
