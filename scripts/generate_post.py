@@ -1,12 +1,9 @@
 import os
 import json
-import google.generativeai as genai
 from datetime import datetime
+import google.generativeai as genai
 
 TOPICS_FILE = "content/topics.json"
-
-today = datetime.now().strftime("%Y-%m-%d")
-
 
 # Configure Gemini
 genai.configure(
@@ -28,8 +25,8 @@ topic = next(
 if not topic:
     raise Exception("No pending topics found.")
 
-# Load prompt template
-with open("templates/linkedin_prompt.txt", "r") as f:
+# Load master prompt
+with open("templates/master_prompt.txt", "r") as f:
     template = f.read()
 
 prompt = template.format(
@@ -39,18 +36,26 @@ prompt = template.format(
     cta=topic["cta"]
 )
 
-# Generate content
+# Generate response
 response = model.generate_content(prompt)
 
-post = response.text
+# Parse generated JSON
+generated_data = json.loads(response.text)
 
-# Create output folder
+# Final structured output
+output = {
+    "date": datetime.now().strftime("%Y-%m-%d"),
+    "topic_id": topic["id"],
+    "category": topic["category"],
+    **generated_data
+}
+
+# Save file
 os.makedirs("output/posts", exist_ok=True)
 
-filename = f"output/posts/{today}.txt"
+filename = f"output/posts/{datetime.now().strftime('%Y-%m-%d')}.json"
 
-# Save generated post
 with open(filename, "w") as f:
-    f.write(post)
+    json.dump(output, f, indent=2)
 
-print(post)
+print(json.dumps(output, indent=2))
