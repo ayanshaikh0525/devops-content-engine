@@ -35,6 +35,13 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: python scripts/generate_thumbnail.py
 
+      - name: Upload LinkedIn Image
+        run: python scripts/upload_linkedin_image.py
+      
+      - name: Verify Asset Exists
+        run: ls -R output/assets
+
+
       - name: Publish to LinkedIn
         env:
           LINKEDIN_ACCESS_TOKEN: ${{ secrets.LINKEDIN_ACCESS_TOKEN }}
