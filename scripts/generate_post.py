@@ -39,8 +39,11 @@ prompt = template.format(
 # Generate response
 response = model.generate_content(prompt)
 
+# clean the data
+cleaned = response.text.replace("```json", "").replace("```", "").strip()
+
 # Parse generated JSON
-generated_data = json.loads(response.text)
+generated_data = json.loads(cleaned)
 
 # Final structured output
 output = {
