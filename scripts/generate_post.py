@@ -1,8 +1,12 @@
 import os
 import json
 import google.generativeai as genai
+from datetime import datetime
 
 TOPICS_FILE = "content/topics.json"
+
+today = datetime.now().strftime("%Y-%m-%d")
+
 
 # Configure Gemini
 genai.configure(
@@ -43,8 +47,10 @@ post = response.text
 # Create output folder
 os.makedirs("output/posts", exist_ok=True)
 
+filename = f"output/posts/{today}.txt"
+
 # Save generated post
-with open("output/posts/latest_post.txt", "w") as f:
+with open(filename, "w") as f:
     f.write(post)
 
 print(post)
