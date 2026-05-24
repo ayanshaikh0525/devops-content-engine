@@ -49,6 +49,7 @@ generated_data = json.loads(cleaned)
 output = {
     "date": datetime.now().strftime("%Y-%m-%d"),
     "topic_id": topic["id"],
+    "title": topic["title"],
     "category": topic["category"],
     **generated_data
 }
