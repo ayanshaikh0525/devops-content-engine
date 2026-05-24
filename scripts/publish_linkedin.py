@@ -11,6 +11,9 @@ today = datetime.now().strftime("%Y-%m-%d")
 
 post_file = f"output/posts/{today}.json"
 
+asset_file = f"output/assets/{today}.json"
+
+
 # Load generated content
 with open(post_file, "r") as f:
     post_data = json.load(f)
@@ -22,7 +25,7 @@ hashtags = " ".join(post_data["hashtags"])
 final_post = f"{content}\n\n{hashtags}"
 
 url = "https://api.linkedin.com/v2/ugcPosts"
-print(ACCESS_TOKEN)
+
 headers = {
     "Authorization": f"Bearer {ACCESS_TOKEN.strip()}",
     "Content-Type": "application/json",
@@ -39,9 +42,21 @@ payload = {
             "shareCommentary": {
                 "text": final_post
             },
-            "shareMediaCategory": "NONE"
-        }
-    },
+            "shareMediaCategory": "IMAGE",
+                        "media": [
+                            {
+                                "status": "READY",
+                                "description": {
+                                    "text": post_data["title"]
+                                },
+                                "media": asset,
+                                "title": {
+                                    "text": post_data["title"]
+                                }
+                            }
+                        ]
+                    }
+                },
     "visibility": {
         "com.linkedin.ugc.MemberNetworkVisibility": "PUBLIC"
     }
@@ -55,3 +70,6 @@ response = requests.post(
 
 print(response.status_code)
 print(response.text)
+
+if response.status_code not in [200, 201]:
+    raise Exception("LinkedIn publish failed.")
