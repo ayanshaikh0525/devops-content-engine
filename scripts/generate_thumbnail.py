@@ -2,7 +2,7 @@
 import os
 import json
 from datetime import datetime
-from google import genai
+import google.generativeai as genai
 from PIL import Image
 from io import BytesIO
 import base64
