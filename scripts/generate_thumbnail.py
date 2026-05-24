@@ -1,38 +1,27 @@
-
 import os
 import json
+import requests
 from datetime import datetime
-import google.generativeai as genai
-from PIL import Image
-from io import BytesIO
-import base64
-
-# Configure Gemini client
-client = genai.configure(
-    api_key=os.getenv("GEMINI_API_KEY")
-)
+from urllib.parse import quote
 
 today = datetime.now().strftime("%Y-%m-%d")
 
 post_file = f"output/posts/{today}.json"
 
-# Load generated post
+# Load generated content
 with open(post_file, "r") as f:
     post_data = json.load(f)
 
-thumbnail_prompt = post_data["thumbnail_prompt"]
+prompt = post_data["thumbnail_prompt"]
 
-# Generate image using Imagen
-response = client.models.generate_images(
-    model="imagen-3.0-generate-002",
-    prompt=thumbnail_prompt,
-    config={
-        "number_of_images": 1
-    }
-)
+# Encode prompt
+encoded_prompt = quote(prompt)
 
-# Extract image bytes
-image_data = response.generated_images[0].image.image_bytes
+# Pollinations image URL
+image_url = f"https://image.pollinations.ai/prompt/{encoded_prompt}"
+
+# Download image
+response = requests.get(image_url)
 
 # Save image
 os.makedirs("output/thumbnails", exist_ok=True)
@@ -40,6 +29,6 @@ os.makedirs("output/thumbnails", exist_ok=True)
 image_path = f"output/thumbnails/{today}.png"
 
 with open(image_path, "wb") as f:
-    f.write(image_data)
+    f.write(response.content)
 
-print(f"Thumbnail saved: {image_path}")
+print(f"Thumbnail saved at: {image_path}")
