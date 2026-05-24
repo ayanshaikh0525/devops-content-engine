@@ -1,18 +1,14 @@
-
 name: LinkedIn Automation
 
 on:
-  schedule:
-    - cron: "0 4 * * *"
-
   workflow_dispatch:
 
 jobs:
-  post:
+  generate-post:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Repo
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
       - name: Setup Python
@@ -23,7 +19,13 @@ jobs:
       - name: Install Dependencies
         run: pip install -r requirements.txt
 
-      - name: Generate Post
+      - name: Generate LinkedIn Post
         env:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
         run: python scripts/generate_post.py
+
+      - name: Upload Generated Post
+        uses: actions/upload-artifact@v4
+        with:
+          name: linkedin-post
+          path: output/posts/latest_post.txt
