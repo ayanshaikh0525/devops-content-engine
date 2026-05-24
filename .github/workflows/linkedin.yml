@@ -1,7 +1,17 @@
 name: LinkedIn Automation
 
+permissions:
+  contents: write
+
+concurrency:
+  group: linkedin-automation
+  cancel-in-progress: false
+
 on:
   workflow_dispatch:
+
+  schedule:
+    - cron: "30 4 * * *"
 
 jobs:
   generate-post:
