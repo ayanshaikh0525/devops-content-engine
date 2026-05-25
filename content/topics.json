@@ -33,7 +33,7 @@
   },
   {
     "id": 3,
-    "status": "pending",
+    "status": "posted",
     "category": "aws",
     "title": "One AWS Mistake Quietly Increased My Bill",
     "angle": "Unused cloud resources causing cost spikes",
