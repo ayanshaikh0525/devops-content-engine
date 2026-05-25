@@ -1,0 +1,19 @@
+name: LinkedIn Automation
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '*/15 * * * *'
+
+permissions:
+  contents: write
+
+jobs:
+  cron-test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print Time
+        run: |
+          echo "Cron works"
+          date
