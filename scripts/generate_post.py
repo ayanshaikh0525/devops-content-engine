@@ -5,7 +5,7 @@ import google.generativeai as genai
 
 TOPICS_FILE = "content/topics.json"
 
-# Configure Gemini
+# Configure Gemini api
 genai.configure(
     api_key=os.getenv("GEMINI_API_KEY")
 )
