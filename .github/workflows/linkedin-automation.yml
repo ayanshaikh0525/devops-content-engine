@@ -1,4 +1,4 @@
-name: LinkedIn Automation
+name: LinkedIn 
 
 on:
   schedule:
