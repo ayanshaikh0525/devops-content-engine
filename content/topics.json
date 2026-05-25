@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "status": "pending",
+    "status": "posted",
     "category": "kubernetes",
     "title": "kubectl describe Solved What Logs Couldn\u2019t",
     "angle": "Importance of Kubernetes events",
