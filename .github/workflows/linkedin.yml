@@ -2,17 +2,13 @@ name: LinkedIn Automation
 
 permissions:
   contents: write
-
-concurrency:
-  group: linkedin-automation
-  cancel-in-progress: false
-
+  
 on:
   workflow_dispatch:
-
+  
   schedule:
     - cron: "*/5 * * * *"
-
+    
 jobs:
   generate-post:
     runs-on: ubuntu-latest
