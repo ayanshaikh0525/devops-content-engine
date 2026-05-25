@@ -49,7 +49,7 @@
   },
   {
     "id": 4,
-    "status": "pending",
+    "status": "posted",
     "category": "cicd",
     "title": "My CI/CD Pipeline Failed 5 Minutes Before Deployment",
     "angle": "Pipeline panic before release",
