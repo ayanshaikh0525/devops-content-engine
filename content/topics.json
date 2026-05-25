@@ -15,10 +15,9 @@
     "cta": "Ask audience hardest Kubernetes issue",
     "visual_style": "dark terminal"
   },
-
   {
     "id": 2,
-    "status": "pending",
+    "status": "posted",
     "category": "docker",
     "title": "My Docker Image Accidentally Became 4GB",
     "angle": "Bad Docker layering practices",
@@ -32,7 +31,6 @@
     "cta": "Ask audience biggest Docker mistake",
     "visual_style": "cinematic workstation"
   },
-
   {
     "id": 3,
     "status": "pending",
@@ -49,7 +47,6 @@
     "cta": "Ask audience biggest AWS billing surprise",
     "visual_style": "cloud dashboard"
   },
-
   {
     "id": 4,
     "status": "pending",
@@ -66,12 +63,11 @@
     "cta": "Ask audience worst deployment moment",
     "visual_style": "pipeline visualization"
   },
-
   {
     "id": 5,
     "status": "pending",
     "category": "kubernetes",
-    "title": "kubectl describe Solved What Logs Couldn’t",
+    "title": "kubectl describe Solved What Logs Couldn\u2019t",
     "angle": "Importance of Kubernetes events",
     "hook_style": "discovery",
     "difficulty": "beginner",
@@ -83,7 +79,6 @@
     "cta": "Ask audience favorite kubectl command",
     "visual_style": "terminal debugging"
   },
-
   {
     "id": 6,
     "status": "pending",
