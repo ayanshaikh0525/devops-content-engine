@@ -1,4 +1,4 @@
-# pick topic from file
+# pick topic 
 import json
 
 TOPICS_FILE = "content/topics.json"
