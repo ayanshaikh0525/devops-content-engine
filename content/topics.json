@@ -81,7 +81,7 @@
   },
   {
     "id": 6,
-    "status": "pending",
+    "status": "posted",
     "category": "automation",
     "title": "I Automated My Entire LinkedIn Workflow Using GitHub Actions",
     "angle": "Build in public DevOps creator automation",
