@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "status": "posted",
+    "status": "pending",
     "category": "kubernetes",
     "title": "I Finally Understood Kubernetes Pods After This Mistake",
     "angle": "Debugging restarting pods confusion",
@@ -13,11 +13,11 @@
       "resource limits"
     ],
     "cta": "Ask audience hardest Kubernetes issue",
-    "visual_style": "dark terminal"
+    "visual_style": "terminal debugging"
   },
   {
     "id": 2,
-    "status": "posted",
+    "status": "pending",
     "category": "docker",
     "title": "My Docker Image Accidentally Became 4GB",
     "angle": "Bad Docker layering practices",
@@ -29,11 +29,11 @@
       "image layers"
     ],
     "cta": "Ask audience biggest Docker mistake",
-    "visual_style": "cinematic workstation"
+    "visual_style": "docker layers visualization"
   },
   {
     "id": 3,
-    "status": "posted",
+    "status": "pending",
     "category": "aws",
     "title": "One AWS Mistake Quietly Increased My Bill",
     "angle": "Unused cloud resources causing cost spikes",
@@ -45,11 +45,11 @@
       "cost monitoring"
     ],
     "cta": "Ask audience biggest AWS billing surprise",
-    "visual_style": "cloud dashboard"
+    "visual_style": "aws billing dashboard"
   },
   {
     "id": 4,
-    "status": "posted",
+    "status": "pending",
     "category": "cicd",
     "title": "My CI/CD Pipeline Failed 5 Minutes Before Deployment",
     "angle": "Pipeline panic before release",
@@ -61,13 +61,29 @@
       "deployment rollback"
     ],
     "cta": "Ask audience worst deployment moment",
-    "visual_style": "pipeline visualization"
+    "visual_style": "failed pipeline screen"
   },
   {
     "id": 5,
-    "status": "posted",
+    "status": "pending",
+    "category": "terraform",
+    "title": "Terraform Destroy Almost Deleted My Production Infrastructure",
+    "angle": "Wrong Terraform workspace usage",
+    "hook_style": "fear",
+    "difficulty": "intermediate",
+    "key_points": [
+      "terraform workspace",
+      "state management",
+      "production safety"
+    ],
+    "cta": "Ask audience scariest infra mistake",
+    "visual_style": "terraform terminal panic"
+  },
+  {
+    "id": 6,
+    "status": "pending",
     "category": "kubernetes",
-    "title": "kubectl describe Solved What Logs Couldn\u2019t",
+    "title": "kubectl describe Solved What Logs Couldn’t",
     "angle": "Importance of Kubernetes events",
     "hook_style": "discovery",
     "difficulty": "beginner",
@@ -77,15 +93,367 @@
       "OOMKilled"
     ],
     "cta": "Ask audience favorite kubectl command",
-    "visual_style": "terminal debugging"
+    "visual_style": "kubernetes event logs"
   },
   {
-    "id": 6,
-    "status": "posted",
+    "id": 7,
+    "status": "pending",
+    "category": "linux",
+    "title": "A Single Linux Command Saved My Production Server",
+    "angle": "Fast debugging under pressure",
+    "hook_style": "hero",
+    "difficulty": "intermediate",
+    "key_points": [
+      "top",
+      "htop",
+      "disk usage"
+    ],
+    "cta": "Ask audience favorite Linux command",
+    "visual_style": "linux production terminal"
+  },
+  {
+    "id": 8,
+    "status": "pending",
+    "category": "docker",
+    "title": "Why My Containers Kept Restarting Randomly",
+    "angle": "Docker memory and health check issues",
+    "hook_style": "problem",
+    "difficulty": "beginner",
+    "key_points": [
+      "restart policies",
+      "health checks",
+      "memory leaks"
+    ],
+    "cta": "Ask audience hardest Docker issue",
+    "visual_style": "container failure dashboard"
+  },
+  {
+    "id": 9,
+    "status": "pending",
+    "category": "aws",
+    "title": "I Misconfigured IAM Once — And Broke Everything",
+    "angle": "IAM permission debugging nightmare",
+    "hook_style": "mistake",
+    "difficulty": "intermediate",
+    "key_points": [
+      "IAM roles",
+      "permission denied",
+      "least privilege"
+    ],
+    "cta": "Ask audience toughest IAM issue",
+    "visual_style": "aws access denied screen"
+  },
+  {
+    "id": 10,
+    "status": "pending",
+    "category": "monitoring",
+    "title": "Grafana Helped Me Catch a Production Bug Before Users Did",
+    "angle": "Importance of observability",
+    "hook_style": "win",
+    "difficulty": "intermediate",
+    "key_points": [
+      "Grafana dashboards",
+      "Prometheus",
+      "alerting"
+    ],
+    "cta": "Ask audience favorite monitoring tool",
+    "visual_style": "grafana monitoring dashboard"
+  },
+  {
+    "id": 11,
+    "status": "pending",
+    "category": "kubernetes",
+    "title": "Readiness Probes Broke My Entire Deployment",
+    "angle": "Improper probe configuration",
+    "hook_style": "failure",
+    "difficulty": "intermediate",
+    "key_points": [
+      "readiness probes",
+      "liveness probes",
+      "deployment rollout"
+    ],
+    "cta": "Ask audience probe debugging stories",
+    "visual_style": "kubernetes health check failure"
+  },
+  {
+    "id": 12,
+    "status": "pending",
+    "category": "github-actions",
+    "title": "One Tiny Secret Misconfiguration Broke My Entire Pipeline",
+    "angle": "CI/CD secrets debugging",
+    "hook_style": "pain",
+    "difficulty": "beginner",
+    "key_points": [
+      "GitHub secrets",
+      "environment variables",
+      "workflow debugging"
+    ],
+    "cta": "Ask audience weirdest CI/CD issue",
+    "visual_style": "github actions failure logs"
+  },
+  {
+    "id": 13,
+    "status": "pending",
+    "category": "nginx",
+    "title": "Nginx Was Returning 502 Errors — But My App Was Fine",
+    "angle": "Reverse proxy debugging",
+    "hook_style": "mystery",
+    "difficulty": "intermediate",
+    "key_points": [
+      "502 Bad Gateway",
+      "upstream servers",
+      "reverse proxy"
+    ],
+    "cta": "Ask audience favorite debugging trick",
+    "visual_style": "nginx error terminal"
+  },
+  {
+    "id": 14,
+    "status": "pending",
+    "category": "kubernetes",
+    "title": "Scaling Pods Didn’t Fix My Performance Problem",
+    "angle": "Horizontal scaling misconception",
+    "hook_style": "lesson",
+    "difficulty": "intermediate",
+    "key_points": [
+      "HPA",
+      "CPU bottlenecks",
+      "database scaling"
+    ],
+    "cta": "Ask audience scaling lessons",
+    "visual_style": "pod scaling dashboard"
+  },
+  {
+    "id": 15,
+    "status": "pending",
+    "category": "aws",
+    "title": "CloudWatch Alert Fatigue Made Me Ignore a Real Incident",
+    "angle": "Too many noisy alerts",
+    "hook_style": "mistake",
+    "difficulty": "intermediate",
+    "key_points": [
+      "CloudWatch",
+      "alerting",
+      "incident response"
+    ],
+    "cta": "Ask audience alerting strategy",
+    "visual_style": "cloudwatch alerts chaos"
+  },
+  {
+    "id": 16,
+    "status": "pending",
+    "category": "linux",
+    "title": "Disk Space Hit 100% — And Everything Stopped",
+    "angle": "Production outage due to storage",
+    "hook_style": "panic",
+    "difficulty": "beginner",
+    "key_points": [
+      "disk cleanup",
+      "logs",
+      "df -h"
+    ],
+    "cta": "Ask audience worst outage story",
+    "visual_style": "disk full warning"
+  },
+  {
+    "id": 17,
+    "status": "pending",
+    "category": "terraform",
+    "title": "Terraform State Files Are More Dangerous Than Most People Think",
+    "angle": "State corruption risks",
+    "hook_style": "warning",
+    "difficulty": "advanced",
+    "key_points": [
+      "remote state",
+      "locking",
+      "state corruption"
+    ],
+    "cta": "Ask audience Terraform best practices",
+    "visual_style": "terraform state visualization"
+  },
+  {
+    "id": 18,
+    "status": "pending",
+    "category": "docker",
+    "title": "Docker Logs Hid the Real Problem for Hours",
+    "angle": "Logging blind spots",
+    "hook_style": "frustration",
+    "difficulty": "beginner",
+    "key_points": [
+      "docker logs",
+      "stdout",
+      "container debugging"
+    ],
+    "cta": "Ask audience favorite logging setup",
+    "visual_style": "docker error logs"
+  },
+  {
+    "id": 19,
+    "status": "pending",
+    "category": "cicd",
+    "title": "A Bad Deployment Taught Me Why Rollbacks Matter",
+    "angle": "Importance of rollback strategies",
+    "hook_style": "lesson",
+    "difficulty": "intermediate",
+    "key_points": [
+      "rollback",
+      "blue green deployment",
+      "release safety"
+    ],
+    "cta": "Ask audience deployment strategies",
+    "visual_style": "deployment rollback screen"
+  },
+  {
+    "id": 20,
+    "status": "pending",
+    "category": "kubernetes",
+    "title": "Why I Stopped SSHing Into Kubernetes Nodes",
+    "angle": "Modern Kubernetes debugging practices",
+    "hook_style": "opinion",
+    "difficulty": "intermediate",
+    "key_points": [
+      "kubectl debug",
+      "ephemeral containers",
+      "node access"
+    ],
+    "cta": "Ask audience Kubernetes habits",
+    "visual_style": "kubernetes node debugging"
+  },
+  {
+    "id": 21,
+    "status": "pending",
+    "category": "aws",
+    "title": "One Forgotten S3 Bucket Became a Security Risk",
+    "angle": "Cloud security oversight",
+    "hook_style": "security",
+    "difficulty": "beginner",
+    "key_points": [
+      "public buckets",
+      "S3 permissions",
+      "security audits"
+    ],
+    "cta": "Ask audience biggest security lesson",
+    "visual_style": "aws security dashboard"
+  },
+  {
+    "id": 22,
+    "status": "pending",
+    "category": "github-actions",
+    "title": "GitHub Actions Saved Me From Manual Deployment Hell",
+    "angle": "Automation efficiency gains",
+    "hook_style": "transformation",
+    "difficulty": "beginner",
+    "key_points": [
+      "automation",
+      "CI/CD",
+      "workflow reuse"
+    ],
+    "cta": "Ask audience favorite automation",
+    "visual_style": "github actions pipeline"
+  },
+  {
+    "id": 23,
+    "status": "pending",
+    "category": "monitoring",
+    "title": "Prometheus Metrics Revealed a Bottleneck I Never Expected",
+    "angle": "Unexpected observability insight",
+    "hook_style": "discovery",
+    "difficulty": "advanced",
+    "key_points": [
+      "Prometheus",
+      "latency",
+      "resource bottlenecks"
+    ],
+    "cta": "Ask audience observability stack",
+    "visual_style": "prometheus graphs"
+  },
+  {
+    "id": 24,
+    "status": "pending",
+    "category": "linux",
+    "title": "One Misconfigured Cron Job Broke My Server Overnight",
+    "angle": "Automation gone wrong",
+    "hook_style": "mistake",
+    "difficulty": "beginner",
+    "key_points": [
+      "cron jobs",
+      "server overload",
+      "logs"
+    ],
+    "cta": "Ask audience cron horror stories",
+    "visual_style": "cron failure terminal"
+  },
+  {
+    "id": 25,
+    "status": "pending",
+    "category": "kubernetes",
+    "title": "I Trusted Kubernetes Defaults Too Much",
+    "angle": "Why defaults aren’t always safe",
+    "hook_style": "lesson",
+    "difficulty": "intermediate",
+    "key_points": [
+      "resource defaults",
+      "network policies",
+      "security"
+    ],
+    "cta": "Ask audience favorite K8s optimization",
+    "visual_style": "kubernetes cluster visualization"
+  },
+  {
+    "id": 26,
+    "status": "pending",
+    "category": "terraform",
+    "title": "Terraform Plan Looked Safe — Until It Wasn’t",
+    "angle": "Unexpected infrastructure drift",
+    "hook_style": "shock",
+    "difficulty": "advanced",
+    "key_points": [
+      "terraform plan",
+      "drift",
+      "infrastructure changes"
+    ],
+    "cta": "Ask audience terraform safety tips",
+    "visual_style": "terraform drift detection"
+  },
+  {
+    "id": 27,
+    "status": "pending",
+    "category": "docker",
+    "title": "Docker Networking Confused Me More Than Kubernetes",
+    "angle": "Container networking learning curve",
+    "hook_style": "confession",
+    "difficulty": "intermediate",
+    "key_points": [
+      "bridge networks",
+      "ports",
+      "DNS"
+    ],
+    "cta": "Ask audience hardest networking topic",
+    "visual_style": "docker network diagram"
+  },
+  {
+    "id": 28,
+    "status": "pending",
+    "category": "aws",
+    "title": "Auto Scaling Didn’t Save My Application",
+    "angle": "Why scaling alone isn’t enough",
+    "hook_style": "counterintuitive",
+    "difficulty": "intermediate",
+    "key_points": [
+      "auto scaling",
+      "database bottlenecks",
+      "latency"
+    ],
+    "cta": "Ask audience scaling challenges",
+    "visual_style": "aws scaling graphs"
+  },
+  {
+    "id": 29,
+    "status": "pending",
     "category": "automation",
-    "title": "I Automated My Entire LinkedIn Workflow Using GitHub Actions",
-    "angle": "Build in public DevOps creator automation",
-    "hook_style": "build",
+    "title": "I Automated My LinkedIn Using GitHub Actions and Gemini",
+    "angle": "Building AI creator infrastructure",
+    "hook_style": "build-in-public",
     "difficulty": "intermediate",
     "key_points": [
       "GitHub Actions",
@@ -93,6 +461,22 @@
       "LinkedIn automation"
     ],
     "cta": "Ask audience what they want to automate",
-    "visual_style": "futuristic workstation"
+    "visual_style": "automation control center"
+  },
+  {
+    "id": 30,
+    "status": "pending",
+    "category": "career",
+    "title": "The Biggest DevOps Skill Isn’t Kubernetes",
+    "angle": "Communication and debugging mindset",
+    "hook_style": "contrarian",
+    "difficulty": "beginner",
+    "key_points": [
+      "problem solving",
+      "communication",
+      "debugging mindset"
+    ],
+    "cta": "Ask audience most underrated DevOps skill",
+    "visual_style": "real engineering workspace"
   }
 ]
