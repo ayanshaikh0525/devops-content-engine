@@ -65,7 +65,7 @@
   },
   {
     "id": 5,
-    "status": "pending",
+    "status": "posted",
     "category": "terraform",
     "title": "Terraform Destroy Almost Deleted My Production Infrastructure",
     "angle": "Wrong Terraform workspace usage",
