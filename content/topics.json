@@ -97,7 +97,7 @@
   },
   {
     "id": 7,
-    "status": "pending",
+    "status": "posted",
     "category": "linux",
     "title": "A Single Linux Command Saved My Production Server",
     "angle": "Fast debugging under pressure",
