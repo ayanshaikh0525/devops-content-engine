@@ -113,7 +113,7 @@
   },
   {
     "id": 8,
-    "status": "pending",
+    "status": "posted",
     "category": "docker",
     "title": "Why My Containers Kept Restarting Randomly",
     "angle": "Docker memory and health check issues",
