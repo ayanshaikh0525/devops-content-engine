@@ -129,7 +129,7 @@
   },
   {
     "id": 9,
-    "status": "pending",
+    "status": "posted",
     "category": "aws",
     "title": "I Misconfigured IAM Once \u2014 And Broke Everything",
     "angle": "IAM permission debugging nightmare",
