@@ -145,7 +145,7 @@
   },
   {
     "id": 10,
-    "status": "pending",
+    "status": "posted",
     "category": "monitoring",
     "title": "Grafana Helped Me Catch a Production Bug Before Users Did",
     "angle": "Importance of observability",
