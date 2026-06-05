@@ -161,7 +161,7 @@
   },
   {
     "id": 11,
-    "status": "pending",
+    "status": "posted",
     "category": "kubernetes",
     "title": "Readiness Probes Broke My Entire Deployment",
     "angle": "Improper probe configuration",
