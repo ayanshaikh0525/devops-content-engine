@@ -177,7 +177,7 @@
   },
   {
     "id": 12,
-    "status": "pending",
+    "status": "posted",
     "category": "github-actions",
     "title": "One Tiny Secret Misconfiguration Broke My Entire Pipeline",
     "angle": "CI/CD secrets debugging",
