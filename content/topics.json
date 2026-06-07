@@ -193,7 +193,7 @@
   },
   {
     "id": 13,
-    "status": "pending",
+    "status": "posted",
     "category": "nginx",
     "title": "Nginx Was Returning 502 Errors \u2014 But My App Was Fine",
     "angle": "Reverse proxy debugging",
