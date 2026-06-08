@@ -209,7 +209,7 @@
   },
   {
     "id": 14,
-    "status": "pending",
+    "status": "posted",
     "category": "kubernetes",
     "title": "Scaling Pods Didn\u2019t Fix My Performance Problem",
     "angle": "Horizontal scaling misconception",
