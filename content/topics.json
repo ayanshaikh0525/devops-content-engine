@@ -225,7 +225,7 @@
   },
   {
     "id": 15,
-    "status": "pending",
+    "status": "posted",
     "category": "aws",
     "title": "CloudWatch Alert Fatigue Made Me Ignore a Real Incident",
     "angle": "Too many noisy alerts",
