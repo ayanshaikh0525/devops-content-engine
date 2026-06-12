@@ -241,7 +241,7 @@
   },
   {
     "id": 16,
-    "status": "pending",
+    "status": "posted",
     "category": "linux",
     "title": "Disk Space Hit 100% \u2014 And Everything Stopped",
     "angle": "Production outage due to storage",
