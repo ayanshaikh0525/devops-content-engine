@@ -257,7 +257,7 @@
   },
   {
     "id": 17,
-    "status": "pending",
+    "status": "posted",
     "category": "terraform",
     "title": "Terraform State Files Are More Dangerous Than Most People Think",
     "angle": "State corruption risks",
