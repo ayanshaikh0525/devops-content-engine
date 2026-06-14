@@ -273,7 +273,7 @@
   },
   {
     "id": 18,
-    "status": "pending",
+    "status": "posted",
     "category": "docker",
     "title": "Docker Logs Hid the Real Problem for Hours",
     "angle": "Logging blind spots",
