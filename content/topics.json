@@ -289,7 +289,7 @@
   },
   {
     "id": 19,
-    "status": "pending",
+    "status": "posted",
     "category": "cicd",
     "title": "A Bad Deployment Taught Me Why Rollbacks Matter",
     "angle": "Importance of rollback strategies",
