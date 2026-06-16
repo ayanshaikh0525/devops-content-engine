@@ -305,7 +305,7 @@
   },
   {
     "id": 20,
-    "status": "pending",
+    "status": "posted",
     "category": "kubernetes",
     "title": "Why I Stopped SSHing Into Kubernetes Nodes",
     "angle": "Modern Kubernetes debugging practices",
