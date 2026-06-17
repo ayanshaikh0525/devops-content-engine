@@ -321,7 +321,7 @@
   },
   {
     "id": 21,
-    "status": "pending",
+    "status": "posted",
     "category": "aws",
     "title": "One Forgotten S3 Bucket Became a Security Risk",
     "angle": "Cloud security oversight",
