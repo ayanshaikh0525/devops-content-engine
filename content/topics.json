@@ -337,7 +337,7 @@
   },
   {
     "id": 22,
-    "status": "pending",
+    "status": "posted",
     "category": "github-actions",
     "title": "GitHub Actions Saved Me From Manual Deployment Hell",
     "angle": "Automation efficiency gains",
@@ -480,485 +480,485 @@
     "visual_style": "real engineering workspace"
   },
   [
-  {
-    "id": 31,
-    "status": "pending",
-    "category": "jenkins",
-    "title": "Jenkins Worked Perfectly Until One Plugin Broke Everything",
-    "angle": "Plugin dependency issues in Jenkins",
-    "hook_style": "mistake",
-    "difficulty": "intermediate",
-    "key_points": [
-      "plugins",
-      "version conflicts",
-      "pipeline failures"
-    ],
-    "cta": "Ask audience worst Jenkins experience",
-    "visual_style": "jenkins plugin dashboard"
-  },
-  {
-    "id": 32,
-    "status": "pending",
-    "category": "ansible",
-    "title": "One Wrong Ansible Playbook Changed Every Server",
-    "angle": "Configuration management gone wrong",
-    "hook_style": "panic",
-    "difficulty": "intermediate",
-    "key_points": [
-      "inventory",
-      "playbooks",
-      "idempotency"
-    ],
-    "cta": "Ask audience Ansible mistakes",
-    "visual_style": "ansible terminal output"
-  },
-  {
-    "id": 33,
-    "status": "pending",
-    "category": "aws",
-    "title": "Lambda Timeouts Cost Me Hours of Debugging",
-    "angle": "Serverless execution limits",
-    "hook_style": "frustration",
-    "difficulty": "beginner",
-    "key_points": [
-      "Lambda",
-      "timeouts",
-      "CloudWatch logs"
-    ],
-    "cta": "Ask audience toughest Lambda issue",
-    "visual_style": "lambda timeout logs"
-  },
-  {
-    "id": 34,
-    "status": "pending",
-    "category": "linux",
-    "title": "I Ignored Linux Permissions Until They Locked Me Out",
-    "angle": "Understanding file permissions",
-    "hook_style": "lesson",
-    "difficulty": "beginner",
-    "key_points": [
-      "chmod",
-      "chown",
-      "sudo"
-    ],
-    "cta": "Ask audience favorite Linux tip",
-    "visual_style": "permission denied terminal"
-  },
-  {
-    "id": 35,
-    "status": "pending",
-    "category": "docker",
-    "title": "Docker Compose Made Local Development Feel Magical",
-    "angle": "Simplifying multi-container apps",
-    "hook_style": "transformation",
-    "difficulty": "beginner",
-    "key_points": [
-      "docker compose",
-      "services",
-      "volumes"
-    ],
-    "cta": "Ask audience favorite Docker feature",
-    "visual_style": "docker compose architecture"
-  },
-  {
-    "id": 36,
-    "status": "pending",
-    "category": "kubernetes",
-    "title": "ConfigMaps Seemed Simple Until They Broke My Application",
-    "angle": "Managing application configuration",
-    "hook_style": "failure",
-    "difficulty": "intermediate",
-    "key_points": [
-      "ConfigMaps",
-      "environment variables",
-      "rolling updates"
-    ],
-    "cta": "Ask audience ConfigMap lessons",
-    "visual_style": "kubernetes config dashboard"
-  },
-  {
-    "id": 37,
-    "status": "pending",
-    "category": "monitoring",
-    "title": "Logs Told Me Nothing Until I Added Tracing",
-    "angle": "Distributed tracing importance",
-    "hook_style": "discovery",
-    "difficulty": "advanced",
-    "key_points": [
-      "Jaeger",
-      "OpenTelemetry",
-      "tracing"
-    ],
-    "cta": "Ask audience tracing stack",
-    "visual_style": "distributed tracing graph"
-  },
-  {
-    "id": 38,
-    "status": "pending",
-    "category": "github-actions",
-    "title": "Caching Dependencies Reduced My Build Time by 80%",
-    "angle": "CI optimization techniques",
-    "hook_style": "win",
-    "difficulty": "beginner",
-    "key_points": [
-      "cache",
-      "actions",
-      "speed optimization"
-    ],
-    "cta": "Ask audience fastest CI trick",
-    "visual_style": "build speed comparison"
-  },
-  {
-    "id": 39,
-    "status": "pending",
-    "category": "terraform",
-    "title": "Modules Made My Terraform Code Finally Reusable",
-    "angle": "Benefits of modular IaC",
-    "hook_style": "realization",
-    "difficulty": "intermediate",
-    "key_points": [
-      "modules",
-      "variables",
-      "reusability"
-    ],
-    "cta": "Ask audience Terraform habits",
-    "visual_style": "terraform module structure"
-  },
-  {
-    "id": 40,
-    "status": "pending",
-    "category": "security",
-    "title": "Hardcoding Secrets Was My Biggest DevOps Regret",
-    "angle": "Secrets management best practices",
-    "hook_style": "confession",
-    "difficulty": "beginner",
-    "key_points": [
-      "Vault",
-      "Secrets Manager",
-      "security"
-    ],
-    "cta": "Ask audience secrets strategy",
-    "visual_style": "vault interface"
-  },
-  {
-    "id": 41,
-    "status": "pending",
-    "category": "aws",
-    "title": "Route53 Was Pointing to the Wrong Server for Days",
-    "angle": "DNS troubleshooting",
-    "hook_style": "mystery",
-    "difficulty": "beginner",
-    "key_points": [
-      "DNS",
-      "TTL",
-      "Route53"
-    ],
-    "cta": "Ask audience DNS horror stories",
-    "visual_style": "dns propagation dashboard"
-  },
-  {
-    "id": 42,
-    "status": "pending",
-    "category": "linux",
-    "title": "A Forgotten Log File Filled My Entire Server",
-    "angle": "Log rotation importance",
-    "hook_style": "mistake",
-    "difficulty": "beginner",
-    "key_points": [
-      "logrotate",
-      "journald",
-      "cleanup"
-    ],
-    "cta": "Ask audience logging practices",
-    "visual_style": "disk usage analysis"
-  },
-  {
-    "id": 43,
-    "status": "pending",
-    "category": "kubernetes",
-    "title": "Namespaces Finally Helped Me Organize My Cluster",
-    "angle": "Kubernetes isolation strategy",
-    "hook_style": "lesson",
-    "difficulty": "beginner",
-    "key_points": [
-      "namespaces",
-      "RBAC",
-      "resource quotas"
-    ],
-    "cta": "Ask audience namespace strategy",
-    "visual_style": "cluster namespace map"
-  },
-  {
-    "id": 44,
-    "status": "pending",
-    "category": "docker",
-    "title": "Volumes Solved a Problem I Didn't Know I Had",
-    "angle": "Persistent storage for containers",
-    "hook_style": "discovery",
-    "difficulty": "beginner",
-    "key_points": [
-      "volumes",
-      "bind mounts",
-      "persistence"
-    ],
-    "cta": "Ask audience storage challenges",
-    "visual_style": "docker volume diagram"
-  },
-  {
-    "id": 45,
-    "status": "pending",
-    "category": "cicd",
-    "title": "Feature Flags Saved Me From Another Bad Deployment",
-    "angle": "Safer release strategies",
-    "hook_style": "win",
-    "difficulty": "intermediate",
-    "key_points": [
-      "feature flags",
-      "gradual rollout",
-      "testing"
-    ],
-    "cta": "Ask audience deployment habits",
-    "visual_style": "feature flag dashboard"
-  },
-  {
-    "id": 46,
-    "status": "pending",
-    "category": "monitoring",
-    "title": "Alert Thresholds Were Wrong And Nobody Noticed",
-    "angle": "Improving alert quality",
-    "hook_style": "warning",
-    "difficulty": "intermediate",
-    "key_points": [
-      "thresholds",
-      "SLOs",
-      "alert tuning"
-    ],
-    "cta": "Ask audience alert philosophy",
-    "visual_style": "monitoring alerts"
-  },
-  {
-    "id": 47,
-    "status": "pending",
-    "category": "career",
-    "title": "The Best Engineers I Know Ask Better Questions",
-    "angle": "Importance of curiosity",
-    "hook_style": "contrarian",
-    "difficulty": "beginner",
-    "key_points": [
-      "learning",
-      "communication",
-      "curiosity"
-    ],
-    "cta": "Ask audience learning habits",
-    "visual_style": "team discussion"
-  },
-  {
-    "id": 48,
-    "status": "pending",
-    "category": "aws",
-    "title": "I Thought RDS Backups Were Automatic Until Disaster Struck",
-    "angle": "Database backup misconceptions",
-    "hook_style": "fear",
-    "difficulty": "intermediate",
-    "key_points": [
-      "RDS",
-      "snapshots",
-      "disaster recovery"
-    ],
-    "cta": "Ask audience backup strategy",
-    "visual_style": "database recovery dashboard"
-  },
-  {
-    "id": 49,
-    "status": "pending",
-    "category": "networking",
-    "title": "A Security Group Rule Blocked My App For Two Days",
-    "angle": "AWS networking troubleshooting",
-    "hook_style": "frustration",
-    "difficulty": "beginner",
-    "key_points": [
-      "security groups",
-      "ports",
-      "VPC"
-    ],
-    "cta": "Ask audience networking challenges",
-    "visual_style": "security group settings"
-  },
-  {
-    "id": 50,
-    "status": "pending",
-    "category": "github-actions",
-    "title": "Matrix Builds Changed How I Test Applications",
-    "angle": "Parallel testing workflows",
-    "hook_style": "discovery",
-    "difficulty": "intermediate",
-    "key_points": [
-      "matrix strategy",
-      "testing",
-      "parallel jobs"
-    ],
-    "cta": "Ask audience favorite workflow feature",
-    "visual_style": "parallel pipeline diagram"
-  },
-  {
-    "id": 51,
-    "status": "pending",
-    "category": "jenkins",
-    "title": "I Migrated From Jenkins To GitHub Actions And Never Looked Back",
-    "angle": "Modern CI/CD comparison",
-    "hook_style": "opinion",
-    "difficulty": "intermediate",
-    "key_points": [
-      "migration",
-      "GitHub Actions",
-      "maintenance"
-    ],
-    "cta": "Ask audience preferred CI tool",
-    "visual_style": "ci comparison screen"
-  },
-  {
-    "id": 52,
-    "status": "pending",
-    "category": "kubernetes",
-    "title": "RBAC Permissions Were Harder Than Kubernetes Itself",
-    "angle": "Kubernetes access control",
-    "hook_style": "confession",
-    "difficulty": "advanced",
-    "key_points": [
-      "RBAC",
-      "roles",
-      "service accounts"
-    ],
-    "cta": "Ask audience toughest K8s topic",
-    "visual_style": "rbac permissions graph"
-  },
-  {
-    "id": 53,
-    "status": "pending",
-    "category": "docker",
-    "title": "I Accidentally Deleted Every Container On My Laptop",
-    "angle": "Docker cleanup mistakes",
-    "hook_style": "panic",
-    "difficulty": "beginner",
-    "key_points": [
-      "docker prune",
-      "cleanup",
-      "containers"
-    ],
-    "cta": "Ask audience Docker disasters",
-    "visual_style": "docker cleanup terminal"
-  },
-  {
-    "id": 54,
-    "status": "pending",
-    "category": "terraform",
-    "title": "Terraform Import Saved Weeks of Manual Work",
-    "angle": "Managing existing infrastructure",
-    "hook_style": "hero",
-    "difficulty": "intermediate",
-    "key_points": [
-      "terraform import",
-      "legacy infra",
-      "migration"
-    ],
-    "cta": "Ask audience IaC adoption stories",
-    "visual_style": "terraform import process"
-  },
-  {
-    "id": 55,
-    "status": "pending",
-    "category": "aws",
-    "title": "CloudFront Caching Made My Website Feel Instantly Faster",
-    "angle": "Content delivery optimization",
-    "hook_style": "win",
-    "difficulty": "beginner",
-    "key_points": [
-      "CloudFront",
-      "cache",
-      "latency"
-    ],
-    "cta": "Ask audience CDN experience",
-    "visual_style": "global CDN map"
-  },
-  {
-    "id": 56,
-    "status": "pending",
-    "category": "linux",
-    "title": "Tmux Became My Favorite Tool After One Production Incident",
-    "angle": "Terminal productivity",
-    "hook_style": "realization",
-    "difficulty": "beginner",
-    "key_points": [
-      "tmux",
-      "sessions",
-      "productivity"
-    ],
-    "cta": "Ask audience terminal setup",
-    "visual_style": "tmux session layout"
-  },
-  {
-    "id": 57,
-    "status": "pending",
-    "category": "monitoring",
-    "title": "Synthetic Monitoring Found Problems Before Customers Did",
-    "angle": "Proactive monitoring techniques",
-    "hook_style": "discovery",
-    "difficulty": "intermediate",
-    "key_points": [
-      "synthetic tests",
-      "uptime",
-      "user experience"
-    ],
-    "cta": "Ask audience monitoring stack",
-    "visual_style": "uptime dashboard"
-  },
-  {
-    "id": 58,
-    "status": "pending",
-    "category": "career",
-    "title": "The Fastest Way To Learn DevOps Was Breaking Things Safely",
-    "angle": "Hands-on experimentation",
-    "hook_style": "contrarian",
-    "difficulty": "beginner",
-    "key_points": [
-      "labs",
-      "practice",
-      "troubleshooting"
-    ],
-    "cta": "Ask audience learning methods",
-    "visual_style": "home lab setup"
-  },
-  {
-    "id": 59,
-    "status": "pending",
-    "category": "automation",
-    "title": "I Let AI Write My Documentation For A Week",
-    "angle": "Using AI for engineering workflows",
-    "hook_style": "experiment",
-    "difficulty": "beginner",
-    "key_points": [
-      "AI",
-      "documentation",
-      "automation"
-    ],
-    "cta": "Ask audience AI workflows",
-    "visual_style": "ai workspace"
-  },
-  {
-    "id": 60,
-    "status": "pending",
-    "category": "career",
-    "title": "Nobody Told Me Debugging Would Become My Most Valuable Skill",
-    "angle": "Engineering mindset shift",
-    "hook_style": "reflection",
-    "difficulty": "beginner",
-    "key_points": [
-      "debugging",
-      "critical thinking",
-      "problem solving"
-    ],
-    "cta": "Ask audience best debugging story",
-    "visual_style": "engineer analyzing logs"
-  }
-]
+    {
+      "id": 31,
+      "status": "pending",
+      "category": "jenkins",
+      "title": "Jenkins Worked Perfectly Until One Plugin Broke Everything",
+      "angle": "Plugin dependency issues in Jenkins",
+      "hook_style": "mistake",
+      "difficulty": "intermediate",
+      "key_points": [
+        "plugins",
+        "version conflicts",
+        "pipeline failures"
+      ],
+      "cta": "Ask audience worst Jenkins experience",
+      "visual_style": "jenkins plugin dashboard"
+    },
+    {
+      "id": 32,
+      "status": "pending",
+      "category": "ansible",
+      "title": "One Wrong Ansible Playbook Changed Every Server",
+      "angle": "Configuration management gone wrong",
+      "hook_style": "panic",
+      "difficulty": "intermediate",
+      "key_points": [
+        "inventory",
+        "playbooks",
+        "idempotency"
+      ],
+      "cta": "Ask audience Ansible mistakes",
+      "visual_style": "ansible terminal output"
+    },
+    {
+      "id": 33,
+      "status": "pending",
+      "category": "aws",
+      "title": "Lambda Timeouts Cost Me Hours of Debugging",
+      "angle": "Serverless execution limits",
+      "hook_style": "frustration",
+      "difficulty": "beginner",
+      "key_points": [
+        "Lambda",
+        "timeouts",
+        "CloudWatch logs"
+      ],
+      "cta": "Ask audience toughest Lambda issue",
+      "visual_style": "lambda timeout logs"
+    },
+    {
+      "id": 34,
+      "status": "pending",
+      "category": "linux",
+      "title": "I Ignored Linux Permissions Until They Locked Me Out",
+      "angle": "Understanding file permissions",
+      "hook_style": "lesson",
+      "difficulty": "beginner",
+      "key_points": [
+        "chmod",
+        "chown",
+        "sudo"
+      ],
+      "cta": "Ask audience favorite Linux tip",
+      "visual_style": "permission denied terminal"
+    },
+    {
+      "id": 35,
+      "status": "pending",
+      "category": "docker",
+      "title": "Docker Compose Made Local Development Feel Magical",
+      "angle": "Simplifying multi-container apps",
+      "hook_style": "transformation",
+      "difficulty": "beginner",
+      "key_points": [
+        "docker compose",
+        "services",
+        "volumes"
+      ],
+      "cta": "Ask audience favorite Docker feature",
+      "visual_style": "docker compose architecture"
+    },
+    {
+      "id": 36,
+      "status": "pending",
+      "category": "kubernetes",
+      "title": "ConfigMaps Seemed Simple Until They Broke My Application",
+      "angle": "Managing application configuration",
+      "hook_style": "failure",
+      "difficulty": "intermediate",
+      "key_points": [
+        "ConfigMaps",
+        "environment variables",
+        "rolling updates"
+      ],
+      "cta": "Ask audience ConfigMap lessons",
+      "visual_style": "kubernetes config dashboard"
+    },
+    {
+      "id": 37,
+      "status": "pending",
+      "category": "monitoring",
+      "title": "Logs Told Me Nothing Until I Added Tracing",
+      "angle": "Distributed tracing importance",
+      "hook_style": "discovery",
+      "difficulty": "advanced",
+      "key_points": [
+        "Jaeger",
+        "OpenTelemetry",
+        "tracing"
+      ],
+      "cta": "Ask audience tracing stack",
+      "visual_style": "distributed tracing graph"
+    },
+    {
+      "id": 38,
+      "status": "pending",
+      "category": "github-actions",
+      "title": "Caching Dependencies Reduced My Build Time by 80%",
+      "angle": "CI optimization techniques",
+      "hook_style": "win",
+      "difficulty": "beginner",
+      "key_points": [
+        "cache",
+        "actions",
+        "speed optimization"
+      ],
+      "cta": "Ask audience fastest CI trick",
+      "visual_style": "build speed comparison"
+    },
+    {
+      "id": 39,
+      "status": "pending",
+      "category": "terraform",
+      "title": "Modules Made My Terraform Code Finally Reusable",
+      "angle": "Benefits of modular IaC",
+      "hook_style": "realization",
+      "difficulty": "intermediate",
+      "key_points": [
+        "modules",
+        "variables",
+        "reusability"
+      ],
+      "cta": "Ask audience Terraform habits",
+      "visual_style": "terraform module structure"
+    },
+    {
+      "id": 40,
+      "status": "pending",
+      "category": "security",
+      "title": "Hardcoding Secrets Was My Biggest DevOps Regret",
+      "angle": "Secrets management best practices",
+      "hook_style": "confession",
+      "difficulty": "beginner",
+      "key_points": [
+        "Vault",
+        "Secrets Manager",
+        "security"
+      ],
+      "cta": "Ask audience secrets strategy",
+      "visual_style": "vault interface"
+    },
+    {
+      "id": 41,
+      "status": "pending",
+      "category": "aws",
+      "title": "Route53 Was Pointing to the Wrong Server for Days",
+      "angle": "DNS troubleshooting",
+      "hook_style": "mystery",
+      "difficulty": "beginner",
+      "key_points": [
+        "DNS",
+        "TTL",
+        "Route53"
+      ],
+      "cta": "Ask audience DNS horror stories",
+      "visual_style": "dns propagation dashboard"
+    },
+    {
+      "id": 42,
+      "status": "pending",
+      "category": "linux",
+      "title": "A Forgotten Log File Filled My Entire Server",
+      "angle": "Log rotation importance",
+      "hook_style": "mistake",
+      "difficulty": "beginner",
+      "key_points": [
+        "logrotate",
+        "journald",
+        "cleanup"
+      ],
+      "cta": "Ask audience logging practices",
+      "visual_style": "disk usage analysis"
+    },
+    {
+      "id": 43,
+      "status": "pending",
+      "category": "kubernetes",
+      "title": "Namespaces Finally Helped Me Organize My Cluster",
+      "angle": "Kubernetes isolation strategy",
+      "hook_style": "lesson",
+      "difficulty": "beginner",
+      "key_points": [
+        "namespaces",
+        "RBAC",
+        "resource quotas"
+      ],
+      "cta": "Ask audience namespace strategy",
+      "visual_style": "cluster namespace map"
+    },
+    {
+      "id": 44,
+      "status": "pending",
+      "category": "docker",
+      "title": "Volumes Solved a Problem I Didn't Know I Had",
+      "angle": "Persistent storage for containers",
+      "hook_style": "discovery",
+      "difficulty": "beginner",
+      "key_points": [
+        "volumes",
+        "bind mounts",
+        "persistence"
+      ],
+      "cta": "Ask audience storage challenges",
+      "visual_style": "docker volume diagram"
+    },
+    {
+      "id": 45,
+      "status": "pending",
+      "category": "cicd",
+      "title": "Feature Flags Saved Me From Another Bad Deployment",
+      "angle": "Safer release strategies",
+      "hook_style": "win",
+      "difficulty": "intermediate",
+      "key_points": [
+        "feature flags",
+        "gradual rollout",
+        "testing"
+      ],
+      "cta": "Ask audience deployment habits",
+      "visual_style": "feature flag dashboard"
+    },
+    {
+      "id": 46,
+      "status": "pending",
+      "category": "monitoring",
+      "title": "Alert Thresholds Were Wrong And Nobody Noticed",
+      "angle": "Improving alert quality",
+      "hook_style": "warning",
+      "difficulty": "intermediate",
+      "key_points": [
+        "thresholds",
+        "SLOs",
+        "alert tuning"
+      ],
+      "cta": "Ask audience alert philosophy",
+      "visual_style": "monitoring alerts"
+    },
+    {
+      "id": 47,
+      "status": "pending",
+      "category": "career",
+      "title": "The Best Engineers I Know Ask Better Questions",
+      "angle": "Importance of curiosity",
+      "hook_style": "contrarian",
+      "difficulty": "beginner",
+      "key_points": [
+        "learning",
+        "communication",
+        "curiosity"
+      ],
+      "cta": "Ask audience learning habits",
+      "visual_style": "team discussion"
+    },
+    {
+      "id": 48,
+      "status": "pending",
+      "category": "aws",
+      "title": "I Thought RDS Backups Were Automatic Until Disaster Struck",
+      "angle": "Database backup misconceptions",
+      "hook_style": "fear",
+      "difficulty": "intermediate",
+      "key_points": [
+        "RDS",
+        "snapshots",
+        "disaster recovery"
+      ],
+      "cta": "Ask audience backup strategy",
+      "visual_style": "database recovery dashboard"
+    },
+    {
+      "id": 49,
+      "status": "pending",
+      "category": "networking",
+      "title": "A Security Group Rule Blocked My App For Two Days",
+      "angle": "AWS networking troubleshooting",
+      "hook_style": "frustration",
+      "difficulty": "beginner",
+      "key_points": [
+        "security groups",
+        "ports",
+        "VPC"
+      ],
+      "cta": "Ask audience networking challenges",
+      "visual_style": "security group settings"
+    },
+    {
+      "id": 50,
+      "status": "pending",
+      "category": "github-actions",
+      "title": "Matrix Builds Changed How I Test Applications",
+      "angle": "Parallel testing workflows",
+      "hook_style": "discovery",
+      "difficulty": "intermediate",
+      "key_points": [
+        "matrix strategy",
+        "testing",
+        "parallel jobs"
+      ],
+      "cta": "Ask audience favorite workflow feature",
+      "visual_style": "parallel pipeline diagram"
+    },
+    {
+      "id": 51,
+      "status": "pending",
+      "category": "jenkins",
+      "title": "I Migrated From Jenkins To GitHub Actions And Never Looked Back",
+      "angle": "Modern CI/CD comparison",
+      "hook_style": "opinion",
+      "difficulty": "intermediate",
+      "key_points": [
+        "migration",
+        "GitHub Actions",
+        "maintenance"
+      ],
+      "cta": "Ask audience preferred CI tool",
+      "visual_style": "ci comparison screen"
+    },
+    {
+      "id": 52,
+      "status": "pending",
+      "category": "kubernetes",
+      "title": "RBAC Permissions Were Harder Than Kubernetes Itself",
+      "angle": "Kubernetes access control",
+      "hook_style": "confession",
+      "difficulty": "advanced",
+      "key_points": [
+        "RBAC",
+        "roles",
+        "service accounts"
+      ],
+      "cta": "Ask audience toughest K8s topic",
+      "visual_style": "rbac permissions graph"
+    },
+    {
+      "id": 53,
+      "status": "pending",
+      "category": "docker",
+      "title": "I Accidentally Deleted Every Container On My Laptop",
+      "angle": "Docker cleanup mistakes",
+      "hook_style": "panic",
+      "difficulty": "beginner",
+      "key_points": [
+        "docker prune",
+        "cleanup",
+        "containers"
+      ],
+      "cta": "Ask audience Docker disasters",
+      "visual_style": "docker cleanup terminal"
+    },
+    {
+      "id": 54,
+      "status": "pending",
+      "category": "terraform",
+      "title": "Terraform Import Saved Weeks of Manual Work",
+      "angle": "Managing existing infrastructure",
+      "hook_style": "hero",
+      "difficulty": "intermediate",
+      "key_points": [
+        "terraform import",
+        "legacy infra",
+        "migration"
+      ],
+      "cta": "Ask audience IaC adoption stories",
+      "visual_style": "terraform import process"
+    },
+    {
+      "id": 55,
+      "status": "pending",
+      "category": "aws",
+      "title": "CloudFront Caching Made My Website Feel Instantly Faster",
+      "angle": "Content delivery optimization",
+      "hook_style": "win",
+      "difficulty": "beginner",
+      "key_points": [
+        "CloudFront",
+        "cache",
+        "latency"
+      ],
+      "cta": "Ask audience CDN experience",
+      "visual_style": "global CDN map"
+    },
+    {
+      "id": 56,
+      "status": "pending",
+      "category": "linux",
+      "title": "Tmux Became My Favorite Tool After One Production Incident",
+      "angle": "Terminal productivity",
+      "hook_style": "realization",
+      "difficulty": "beginner",
+      "key_points": [
+        "tmux",
+        "sessions",
+        "productivity"
+      ],
+      "cta": "Ask audience terminal setup",
+      "visual_style": "tmux session layout"
+    },
+    {
+      "id": 57,
+      "status": "pending",
+      "category": "monitoring",
+      "title": "Synthetic Monitoring Found Problems Before Customers Did",
+      "angle": "Proactive monitoring techniques",
+      "hook_style": "discovery",
+      "difficulty": "intermediate",
+      "key_points": [
+        "synthetic tests",
+        "uptime",
+        "user experience"
+      ],
+      "cta": "Ask audience monitoring stack",
+      "visual_style": "uptime dashboard"
+    },
+    {
+      "id": 58,
+      "status": "pending",
+      "category": "career",
+      "title": "The Fastest Way To Learn DevOps Was Breaking Things Safely",
+      "angle": "Hands-on experimentation",
+      "hook_style": "contrarian",
+      "difficulty": "beginner",
+      "key_points": [
+        "labs",
+        "practice",
+        "troubleshooting"
+      ],
+      "cta": "Ask audience learning methods",
+      "visual_style": "home lab setup"
+    },
+    {
+      "id": 59,
+      "status": "pending",
+      "category": "automation",
+      "title": "I Let AI Write My Documentation For A Week",
+      "angle": "Using AI for engineering workflows",
+      "hook_style": "experiment",
+      "difficulty": "beginner",
+      "key_points": [
+        "AI",
+        "documentation",
+        "automation"
+      ],
+      "cta": "Ask audience AI workflows",
+      "visual_style": "ai workspace"
+    },
+    {
+      "id": 60,
+      "status": "pending",
+      "category": "career",
+      "title": "Nobody Told Me Debugging Would Become My Most Valuable Skill",
+      "angle": "Engineering mindset shift",
+      "hook_style": "reflection",
+      "difficulty": "beginner",
+      "key_points": [
+        "debugging",
+        "critical thinking",
+        "problem solving"
+      ],
+      "cta": "Ask audience best debugging story",
+      "visual_style": "engineer analyzing logs"
+    }
+  ]
 ]
