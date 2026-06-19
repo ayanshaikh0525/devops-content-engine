@@ -353,7 +353,7 @@
   },
   {
     "id": 23,
-    "status": "pending",
+    "status": "posted",
     "category": "monitoring",
     "title": "Prometheus Metrics Revealed a Bottleneck I Never Expected",
     "angle": "Unexpected observability insight",
