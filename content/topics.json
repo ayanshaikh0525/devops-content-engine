@@ -369,7 +369,7 @@
   },
   {
     "id": 24,
-    "status": "pending",
+    "status": "posted",
     "category": "linux",
     "title": "One Misconfigured Cron Job Broke My Server Overnight",
     "angle": "Automation gone wrong",
