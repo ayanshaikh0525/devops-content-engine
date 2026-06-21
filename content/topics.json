@@ -385,7 +385,7 @@
   },
   {
     "id": 25,
-    "status": "pending",
+    "status": "posted",
     "category": "kubernetes",
     "title": "I Trusted Kubernetes Defaults Too Much",
     "angle": "Why defaults aren\u2019t always safe",
