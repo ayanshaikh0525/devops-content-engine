@@ -401,7 +401,7 @@
   },
   {
     "id": 26,
-    "status": "pending",
+    "status": "posted",
     "category": "terraform",
     "title": "Terraform Plan Looked Safe \u2014 Until It Wasn\u2019t",
     "angle": "Unexpected infrastructure drift",
