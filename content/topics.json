@@ -433,7 +433,7 @@
   },
   {
     "id": 28,
-    "status": "pending",
+    "status": "posted",
     "category": "aws",
     "title": "Auto Scaling Didn\u2019t Save My Application",
     "angle": "Why scaling alone isn\u2019t enough",
