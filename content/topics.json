@@ -449,7 +449,7 @@
   },
   {
     "id": 29,
-    "status": "pending",
+    "status": "posted",
     "category": "automation",
     "title": "I Automated My LinkedIn Using GitHub Actions and Gemini",
     "angle": "Building AI creator infrastructure",
